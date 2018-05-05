@@ -3,6 +3,8 @@
 ---?code=c/__init__.py&title=c/\_\_init\_\_.py
 ---?code=c/foo.py&title=c/foo.py
 
+---
+
 ```
 >>> from a import foo
 >>> foo
@@ -11,11 +13,15 @@
 'THIS IS A STRING DEFINED IN THE MODULE'
 ```
 
+---
+
 ```
 >>> from b import foo
 >>> foo
 'THIS IS A STRING DEFINIED IN __init__.py'
 ```
+
+---
 
 ```
 >>> from c import foo
