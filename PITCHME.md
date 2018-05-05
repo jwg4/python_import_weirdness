@@ -1,9 +1,10 @@
 # A nuance about importing stuff in Python.
 
+---
+
+A folder called `a` contains a file called `foo.py`:
+
 ---?code=a/foo.py&title=a/foo.py
----?code=b/__init__.py&title=b/\_\_init\_\_.py
----?code=c/__init__.py&title=c/\_\_init\_\_.py
----?code=c/foo.py&title=c/foo.py
 
 ---
 
@@ -18,12 +19,25 @@
 
 ---
 
+Folder `b` defines `foo` in the init file:
+
+---?code=b/__init__.py&title=b/\_\_init\_\_.py
+
+---
+
 ```
 >>> from b import foo
 >>> foo
 'THIS IS A STRING DEFINIED IN __init__.py'
 
 ```
+
+---
+
+Folder `c` has a file named `foo.py` AND a symbol `foo` in the init:
+
+---?code=c/__init__.py&title=c/\_\_init\_\_.py
+---?code=c/foo.py&title=c/foo.py
 
 ---
 
