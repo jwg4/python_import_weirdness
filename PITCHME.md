@@ -30,6 +30,7 @@
 >>> import c
 >>> c.foo
 'THIS IS A STRING DEFINIED IN __init__.py'
+
 >>> from c.foo import MY_THING
 >>> MY_THING
 'THIS IS A STRING DEFINED IN THE MODULE'
