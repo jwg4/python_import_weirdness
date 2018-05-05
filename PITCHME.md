@@ -1,1 +1,4 @@
----?code=a/foo.py&title=Module a has code in foo.py
+---?code=a/foo.py&title=a/foo.py
+---?code=b/__init__.py&title=b/__init__.py
+---?code=c/__init__.py&title=c/__init__.py
+---?code=c/foo.py&title=c/foo.py
