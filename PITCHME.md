@@ -1,3 +1,5 @@
+# A nuance about importing stuff in Python.
+
 ---?code=a/foo.py&title=a/foo.py
 ---?code=b/__init__.py&title=b/\_\_init\_\_.py
 ---?code=c/__init__.py&title=c/\_\_init\_\_.py
